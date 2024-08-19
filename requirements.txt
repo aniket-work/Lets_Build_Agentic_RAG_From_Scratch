@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+transformers[agents]
+langchain-huggingface

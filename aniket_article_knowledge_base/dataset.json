@@ -1,0 +1,14 @@
+[
+    {
+        "text": "How I Built Refund Processing System using AI Agents from Scratch What’s This Article About?\nIn this article, I’ll walk you through the process of creating a refund processing system that leverages AI Agents to streamline the customer experience. I’ll cover the key components, such as setting up a conversational workflow, integrating language models, and designing a simulated user interaction. The goal is to showcase how AI can be applied to enhance traditional business processes, in this case, the often tedious task of managing customer refunds.",
+        "source": "https://medium.com/@learn-simplified/how-i-built-refund-processing-system-using-ai-agents-from-scratch-7702a998a0c7"
+    },
+    {
+        "text": "AutoFlow : Teaching AI Agents to Think for Themselves.What is this article about?\nThis article is my quest to go deeper into a groundbreaking development in the field of artificial intelligence: AutoFlow. This innovative framework uses Large Language Models (LLMs) to automatically generate workflows for AI agents, significantly streamlining the process of solving complex tasks.\n\nTraditionally, creating workflows for AI agents has been a manual, time-consuming process that requires extensive domain knowledge. AutoFlow changes this paradigm by leveraging the power of LLMs to create these workflows automatically, reducing the need for human intervention and expertise.\n\nThe article explores how AutoFlow works, its benefits over traditional methods, and its potential impact on the future of AI agent development. It also discusses the different approaches used for open-source and closed-source LLMs, providing a comprehensive overview of this new technology.",
+        "source": "https://medium.com/@learn-simplified/autoflow-teaching-ai-agents-to-think-for-themselves-86c9252ec9ea"
+    },
+    {
+        "text": "AI Agents to Simulate Real World Trading Environments.What is this article about?\nThis article explores how artificial intelligence (AI) agents are revolutionizing the way we understand and engage in stock trading. By simulating real-world trading environments, these AI agents help us investigate the impact of various external factors such as macroeconomic trends, policy changes, company fundamentals, and global events. We will delve into the significance of these simulations and how they can transform our approach to stock trading.",
+        "source": "https://medium.com/@learn-simplified/ai-agents-to-simulate-real-world-trading-environments-3f20deb71c34"
+    }
+]
