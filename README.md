@@ -5,17 +5,15 @@ Agentic RAG (Agent-based Retrieval-Augmented Generation) is an advanced framewor
 
 Full Article : [https://medium.com/@learn-simplified/how-i-built-refund-processing-system-using-ai-agents-from-scratch-7702a998a0c7
 
-I'm excited to share with you how I built a comprehensive refund processing system using artificial intelligence (AI) agents. This article will take you on a journey of how AI Agents tackled the task of refund handling, from the initial planning to the final implementation.
-While I chose one of real world use case, same approach, design can be used to any real world application.
+Coordinating Agents to Retrieve, Process, and Deliver Data Efficiently
 
 ## What's This Project About?
-
-In this article, I'll walk you through the process of creating a refund processing system that leverages AI Agents to streamline the customer experience. I'll cover the key components, such as setting up a conversational workflow, integrating language models, and designing a simulated user interaction. The goal is to showcase how AI can be applied to enhance traditional business processes, in this case, the often tedious task of managing customer refunds.
+This article is all about building a Multi Agent Retrieval-Augmented Generation (RAG) system from the ground up. Think of it as creating a team of AI assistants that work together to answer complex questions. We'll walk through the process of setting up a knowledge base, teaching our AI how to understand and search through this information, and then use it to generate smart, context-aware answers. 
+It's like we're building a bridge between vast amounts of data and human-like understanding. We'll cover everything from loading documents, creating embeddings (that's AI-speak for turning words into numbers the computer can understand), setting up a vector store (imagine a super-efficient filing cabinet for our AI), and finally, bringing it all together with an AI agent that can think, retrieve, and respond.
 
 ## Why Use This Project?
-
-The ability to provide efficient and personalized customer service is crucial. AI-driven solutions are transforming the way companies interact with their customers, and this article will demonstrate how you can harness the power of AI to revolutionize your refund processing system.
-By reading this article, you'll gain insights into the practical implementation of AI agents and understand how they can be used to improve customer satisfaction, reduce operational costs, and enhance the overall efficiency of your refund management processes. This article is particularly relevant for businesses that deal with a high volume of refund requests and are looking to optimize their customer experience.
+In today's fast-paced business world, information is king. But with the sheer volume of data out there, finding the right information quickly can be like searching for a needle in a haystack. That's where AI comes in, and that's why this article is so important. Through the lens of a fictional company, we'll show you how to implement a system that can revolutionize how businesses handle information and make decisions. 
+Imagine having an AI assistant that can instantly pull relevant information from your company's entire knowledge base and use it to answer complex questions or solve problems. It's not just about finding information faster; it's about making smarter, more informed decisions. Whether you're in tech, finance, healthcare, or any other industry, understanding and implementing these AI techniques can give your business a significant competitive edge.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -56,14 +54,14 @@ By reading this article, you'll gain insights into the practical implementation 
      pip install -r requirements.txt
      ```
 
-3. **Run - AI Agent Powered Refund Processing System**
+3. **Run - Agentic RAG**
 
-   Finally, execute the following command to start the "AI Agent Powered Refund Processing System" application:
 
    ```bash 
-   # generate synthetic cases of our Law Firm
+   # Run Agentic and Standard RAG 
    python app.py
-    ```
+   
+   ```
 
 
 
