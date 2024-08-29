@@ -3,7 +3,7 @@ Agentic RAG (Agent-based Retrieval-Augmented Generation) is an advanced framewor
 
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/how-i-built-refund-processing-system-using-ai-agents-from-scratch-7702a998a0c7
+Full Article : [https://medium.com/@learn-simplified/lets-build-multi-agent-rag-from-scratch-6ce61c295111
 
 Coordinating Agents to Retrieve, Process, and Deliver Data Efficiently
 
