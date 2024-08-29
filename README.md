@@ -19,7 +19,7 @@ Imagine having an AI assistant that can instantly pull relevant information from
 ![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: Setting Up and Running AI Agent Powered Refund Processing System
+# Tutorial: Lets Build Agentic RAG From Scratch
 
 ## Prerequisites
 - Python installed on your system.
