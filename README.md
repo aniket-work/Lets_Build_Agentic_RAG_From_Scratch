@@ -64,9 +64,7 @@ By reading this article, you'll gain insights into the practical implementation 
    # generate synthetic cases of our Law Firm
    python app.py
     ```
-   
 
-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
 
 
 

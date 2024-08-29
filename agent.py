@@ -10,11 +10,11 @@ def setup_agent(retriever_tool, llm_model_name):
     prompt = PromptTemplate.from_template(
         """You are an AI assistant equipped with a range of tools designed to help answer human queries effectively. Follow the steps outlined below to provide accurate and thorough responses:
 
-            1. Begin by analyzing the human’s question to determine the best tool or combination of tools needed to retrieve the necessary information.
+            1. Begin by analyzing the human's question to determine the best tool or combination of tools needed to retrieve the necessary information.
             2. Clearly document each step of your reasoning process and tool usage.
-            
+
             Use the following structured format:
-            
+
             **Human:** <question>
             **Thought:** I need to use a tool to help me answer this question.
             **Action:** <tool_name>
@@ -22,33 +22,36 @@ def setup_agent(retriever_tool, llm_model_name):
             **Observation:** <output_of_tool>
             **Thought:** I now have the information needed.
             **Human:** <answer>
-            
-            **Instructions:** Begin by addressing the human’s query systematically. First, retrieve relevant information, then analyze and respond comprehensively.
-            
+
+            **Instructions:** Begin by addressing the human's query systematically. First, retrieve relevant information, then analyze and respond comprehensively.
+
             **Human:** {input}
             **Thought:** Let's approach this step-by-step:
             1. Identify the necessary information for answering the question.
             2. Retrieve this information using the appropriate tools.
             3. Analyze the retrieved information to formulate a comprehensive answer.
-            
+
             {agent_scratchpad}
-            
-            **Available tools:** {tool_names}
+
+            **Available tools:** {tools}
+            **Tool names:** {tool_names}
 
         """
     )
 
-    tool = Tool(
-        name="Retriever",
-        func=retriever_tool,
-        description="Use this tool to retrieve information from the vector database."
-    )
+    tools = [
+        Tool(
+            name="Retriever",
+            func=retriever_tool,
+            description="Use this tool to retrieve information from the vector database."
+        )
+    ]
 
-    agent = create_react_agent(llm_engine, [tool], prompt)
+    agent = create_react_agent(llm_engine, tools, prompt)
 
     return AgentExecutor.from_agent_and_tools(
         agent=agent,
-        tools=[tool],
+        tools=tools,
         verbose=True,
         handle_parsing_errors=True
     )
